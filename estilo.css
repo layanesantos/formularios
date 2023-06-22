@@ -1,0 +1,242 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #EFEFEF;
+}
+body::after{
+    content: "";
+    width: 100%;
+    height: 336px;
+
+    background-color: #535971;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    z-index: -1;
+}
+.page{
+    width: 736px;
+    margin: auto;
+}
+
+header{
+    padding-top: 65px;
+}
+ header, h1{
+    
+    margin-bottom: 15px;
+
+    font-family: 'Staatliches', cursive;
+    font-size: 48px;
+    line-height: 60px;
+
+    color:  #FFFFFF;
+}
+header, p {
+    font-size: 20px;
+    line-height: 30px;
+}
+form{
+    margin-top: 50px;
+
+    background-color: #FFFFFF;
+
+    border-radius: 8px 8px 0 0;
+
+    height: 100%;
+}
+fieldset{
+    border: none;
+
+    padding-left: 34px;
+
+
+}
+  fieldset legend{
+    font-family: 'Staatliches', cursive;
+    font-size: 24px;
+    line-height: 34px;
+
+    color: #535971;
+
+    width: 100%;
+    border-bottom: 1px solid #bebbbb;
+
+    padding-top: 34px;
+    padding-bottom: 16px;
+    
+    
+}
+.informacao{
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    
+    
+    color: #615677;
+
+    padding-top: 10px;
+
+    display: flex;
+    flex-direction: row;
+    gap: 22px
+
+}
+.usuario-1{
+    display: flex;
+    flex-direction: column;
+} 
+.usuario-2{
+    display: flex;
+    flex-direction: column;
+}
+.informacao input{
+   margin-top: 10px;
+   margin-bottom: 10px;
+
+  background: #E6E6F0;
+
+  border: 1px solid #FAFAFC;
+  border-radius: 8px;
+
+  height: 56px;
+  width: 300px;
+
+}
+.informacao-2{
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    
+    
+    color: #615677;
+
+    
+}
+.informacao-2 input{
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+    display: flex;
+    flex-direction: column;
+
+    background: #E6E6F0;
+        
+    border: 1px solid #FAFAFC;
+    border-radius: 8px;
+        
+    height: 56px;
+    width: 622px;
+
+}
+ .informacao-2 label span{
+    margin-left: 12px;
+ }
+ .informacao-2 span{
+   font-size: 12px;
+   line-height: 20px;
+
+
+   color: #837e8b;
+ }
+ .mentor legend{
+    width: 100%;
+    border-bottom: 1px solid #bebbbb;
+
+    padding-top: 25px;
+    padding-bottom: 8px;
+}
+.mentor{
+    padding-top: 25px;
+
+    margin-bottom: 15px;
+}
+.mentor input{
+    margin-top: 15px;
+
+}
+.horarios{
+    width: 100%;
+    border-bottom: 1px solid #bebbbb;
+
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+.primeira-mentoria{
+     padding-top: 40px;
+     padding-bottom: 8px;
+
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 34px
+}
+.inserir-data{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    
+    padding-top: 25px;
+    padding-right: 70px;
+    
+}
+
+.inserir-data input{
+    height: 56px;
+    width: 100px;
+}
+.inserir-hora input{
+    width: 300px;
+}
+.segunda-mentoria{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    
+    padding-top: 25px;
+    padding-right: 70px;
+    padding-bottom: 50px;
+}
+
+.segunda-mentoria input{
+    height: 56px;
+    width: 100px;
+}
+.segunda-data input{
+    width: 300px;
+}
+footer{
+    width: 735px;
+    height: 160px;
+
+    background-color: #535971;
+
+    display: flex;
+    flex-direction: column;
+    
+    padding: 40px 64px;
+
+    margin-bottom: 100px;
+    
+    border-radius: 0 0 8px 8px ;
+}
+footer .button{
+    font-family: 'Staatliches', cursive;
+    font-size: 20px;
+
+    height: 56px;
+    border: none;
+
+    border-radius: 15px 15px 15px 15px ;
+
+    background-color: #FF5374;
+
+    color: #ffff;
+}

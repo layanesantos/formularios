@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mentoria</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Staatliches&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+<div class="page">
+<header>
+    <h1>Mentoria</h1>
+    <p>Preencha o Formulário abaixo para <br> agendar a sua mentoria</p>
+</header>
+<form>
+    <fieldset>
+            <legend>informação Pessoais</legend>
+
+            <div class="informacao">
+
+             <di class="usuario-1">
+              <label for=" Name"> Name </label>
+              <input type="text" id="Name">
+             </di>    
+             
+             <div class="usuario-2">
+                <label for="Sobrenome"> Sobrenome </label>
+                <input type="text" id="Sobrenome">
+             </div>
+
+              </div>
+
+            <div class="informacao-2">
+                 <div class="email">
+                <label for="E-mail"> E-mail <span> (digite um email valido)</span></label>
+                <input type="text" id="email">
+                 </div>
+
+                <div class="senha">
+                    <label for="Senha"> Senha <span> (digite um email valido)</span></label>
+                    <input type="password"   id="Senha">
+                </div>
+
+
+
+            <legend>INFORÇÕES DO MENTOR</legend>   
+              
+             <div class="mentor">
+                <label for="Nome "> Nome do seu mentor <span> (só o primeiro nome)</span></label>
+                <input type="text"   id="mentor">
+            </div>
+
+            <legend class="horarios">SEUS HORÁRIOS DISPONÍVEIS</legend>
+            <legend class="primeira-mentoria">Primeira mentoria </legend>
+
+            <div class="inserir-data">
+                <div class="inserir-hora">
+                <label for="Data"> Data <span>(DD/MM/AAAA)</span></label>
+                <input type="date" id="data">
+                </div>
+
+                <div class="inserir-das">
+                <label for="Das"> Das<span>(DD/MM/AAAA)</span></label>
+                <input type="time" id="das">
+                </div>
+    
+                <div class="inserir-ate">
+                <label for="Ate"> Ate<span>(DD/MM/AAAA)</span></label>
+                <input type="time" id="ate">
+                </div>
+            </div>
+    
+           <legend>SEGUNDA MENTORIA</legend>
+
+            <div class="segunda-mentoria">
+
+            <div class="segunda-data">
+            <label for="Data"> Data <span>(DD/MM/AAAA)</span></label>
+            <input type="date" id="data">
+            </div>
+    
+            <div class="segunda-das">
+            <label for="Das"> Das<span>(DD/MM/AAAA)</span></label>
+            <input type="time" id="das">
+            </div>
+        
+            <div class="segunda-ate">
+            <label for="Ate"> Ate<span>(DD/MM/AAAA)</span></label>
+            <input type="time" id="ate">
+            </div>
+            </div>
+          
+    </fieldset>             
+</form>
+ <footer>
+    <input class="button" type="submit" value="Salvar">
+ </footer>
+</div>
+</body>
+</html>
